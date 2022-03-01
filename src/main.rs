@@ -29,7 +29,7 @@ fn main() {
 
             let back_term: f64 = ((b.powf(2f64)-(4f64*a*c))*(-1f64)).sqrt()/(2f64*a);
             
-            println!("The roots of the above function are {}±{:.4}j",front_term,back_term);
+            println!("The roots of the above function are {:.4}±{:.4}j",front_term,back_term);
 
         }else{
 
